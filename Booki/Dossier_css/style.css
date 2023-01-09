@@ -940,6 +940,9 @@ footer{
     #afficher_plus{
         display: none;
     }
+    .image_hebergement{
+        height: 70%;
+    }
 
 
     /*Activite marseille*/
