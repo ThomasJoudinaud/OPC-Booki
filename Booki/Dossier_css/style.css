@@ -270,7 +270,7 @@ form{
 }
 #filtre_bouton li{
     padding-left: 1rem;
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 .filtre_input{
     display: flex;
@@ -710,44 +710,11 @@ footer{
     nav{
         width: 40%;
     }
-
-    /*Filtre*/
-
-
-    #filtre{
-        width: 100%;
-    }
-    #filtre_h2{
-        width: 10%;
-    }
-    #filtre_bouton{
-        width: 90%;
-    }
-    #filtre_bouton li{
-        padding: 0px;
-        width: 45%;
-    }
-    .filtre_mobile{
-        width: 50%;
-    }
-    .filtre_input{
-        width: 100%;
-        justify-content: center;
-    }
-    .filtre_i_placement{
-        margin: 0px;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
-    }
-    .filtre_txt_placement{
-        margin: 0px;
+     #filtre_bouton li{
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
         text-align: center;
     }
-
-
-         /*Main*/
-
-
     #maison{
         flex-direction: column;
     }
