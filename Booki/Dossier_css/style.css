@@ -298,7 +298,7 @@ form{
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-left: 1.4rem;
     margin-right: 0.2rem;
 }
 .filtre_txt_placement{
@@ -309,7 +309,7 @@ form{
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0.2rem;
-    margin-right: 1rem;
+    margin-right: 1.4rem;
 }
 
 /*hover filtre*/
@@ -796,7 +796,6 @@ footer{
         font-weight: 500;
     }
 
-
     /*Recherche*/
 
     form{
@@ -841,6 +840,7 @@ footer{
     #filtre_bouton ul{
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
         width: 100%;
         height: 8rem;
         margin-top: 1rem;
@@ -849,7 +849,8 @@ footer{
         width: 100%;
     }
     #filtre_bouton li{
-        width: 95%;
+        width: 90%;
+        padding: 0px;
     }
     .filtre_input{
         width: 100%;
@@ -877,35 +878,56 @@ footer{
     }
     #plus_populaire{
         margin-top: 0rem;
-        height: 36.25rem;
+        height: 50rem;
     }
     #header_populaire{
         height: 5%;
         width: 90%;
     }
+    #titre_populaire h2{
+        font-size: 1.375rem;
+    }
     #tableau_populaire{
-        height: 80%;
+        height: 85%;
         flex-direction: column;
         width: 90%;
     }
     .carte_populaire{
         width: 100%;
+        height: 28%;
+    }
+    .carte_populaire a{
+        height: 100%;
+    }
+    .referencement_populaire{
+        justify-content: space-between;
+    }
+    .description_populaire{
+        justify-content: flex-start;
+    }
+    .description_populaire h3{
+        padding-top: 1rem;
+    }
+    .description_populaire p{
+        padding-top: 0.5rem;
     }
     .etoile{
         width: 22%;
+        align-items: center;
     }
 
 
     /*hebergement*/
 
     #hebergement_marseille{
-        height: 85rem;
+        height: 100rem;
         background-color: #fcfcfc;
         margin-top: 2rem;
         width: 90%;
     }
     #titre_hebergement{
         margin-left: 0px;
+        font-size: 1.375rem;
     }
     #tableau_hebergement{
         height: 100%;
@@ -924,6 +946,7 @@ footer{
     }
     .carte_hebergement{
         width: 100%;
+        height: 27%;
     }
     .referencement_hebergement .etoile{
         width: 13%;
@@ -940,9 +963,12 @@ footer{
 
 
     #activite_marseille{
-        height: 50rem;
+        height: 70rem;
         justify-content: space-around;
         width: 90%;
+    }
+    #titre_activite h2{
+        font-size: 1.375rem;
     }
     #Marseille{
         flex-direction: column;
